@@ -148,7 +148,7 @@ ui <- page_sidebar(
       selected = "__ALL__"
     ),
     helpText(
-      "Fishery and Year are shared keys across datasets. The app filters each dataset synchronously without performing row-level many-to-many joins."
+      "NOTE: Fishery and Year are shared keys across datasets."
     )
   ),
   navset_card_tab(
