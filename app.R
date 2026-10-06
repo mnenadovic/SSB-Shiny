@@ -23,7 +23,7 @@ library(stringr)
 
 
 # ---------- Set WD ----------
-setwd("~/Desktop/NOAA SBB Project/NOAA SBB Project ShinyApp/NOAA_SBB_Shiny_working")
+setwd("~/NOAA_SBB_Shiny_working")
 
 # ---------- Data ----------
 crew <- read_csv("CrewSurvey.csv", show_col_types = FALSE)
